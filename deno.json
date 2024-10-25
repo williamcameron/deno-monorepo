@@ -1,0 +1,9 @@
+{
+  "workspace": ["./simple-login", "./website"],
+  "imports": {
+    "@std/path": "jsr:@std/path@^1.0.7"
+  },
+  "tasks": {
+    "dev": "deno run -A npm:vite website"
+  }
+}
